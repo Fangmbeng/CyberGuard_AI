@@ -155,7 +155,7 @@ CyberGuardian deploys seven specialized AI agents, each with distinct capabiliti
 | `reports` | Compliance and audit data | BigQuery + GCS PDFs | Reporting, archival |
 
 ---
-
+```
 autonomous-cyber-defense-platform/
 ├── app/
 │   ├── agents/                    # Core agent implementations
@@ -180,7 +180,7 @@ autonomous-cyber-defense-platform/
 ├── notebooks/                     # ML model development
 ├── tests/                         # Comprehensive testing suite
 └── config/                        # System configuration
-
+```
 ## Core Operational Workflows
 
 ### 1. Incident Response Workflow

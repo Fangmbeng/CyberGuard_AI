@@ -156,6 +156,31 @@ CyberGuardian deploys seven specialized AI agents, each with distinct capabiliti
 
 ---
 
+autonomous-cyber-defense-platform/
+├── app/
+│   ├── agents/                    # Core agent implementations
+│   │   ├── detectron_agent.py
+│   │   ├── threat_hunter_agent.py
+│   │   ├── investigator_agent.py
+│   │   ├── containment_agent.py
+│   │   ├── remediator_agent.py
+│   │   ├── intelligence_agent.py
+│   │   └── reporter_agent.py
+│   ├── services/                  # Google Cloud service integrations
+│   │   ├── bigquery_service.py
+│   │   ├── vertex_ai_service.py
+│   │   ├── cloud_security_service.py
+│   │   └── threat_feed_service.py
+│   ├── models/                    # Data models and ML schemas
+│   └── tools/                     # Specialized agent tools
+├── deployment/
+│   ├── terraform/                 # Infrastructure as Code
+│   ├── docker/                    # Containerization
+│   └── scripts/                   # Deployment automation
+├── notebooks/                     # ML model development
+├── tests/                         # Comprehensive testing suite
+└── config/                        # System configuration
+
 ## Core Operational Workflows
 
 ### 1. Incident Response Workflow
